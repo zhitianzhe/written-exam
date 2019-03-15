@@ -1,0 +1,10 @@
+function reverse(s){
+                 if(s.length<=1){
+					 return s;
+				 } else{
+					 return reverse(s.substr(1))+s.charAt(0);
+				 }
+
+              }
+			  var s=reverse("abcde");
+			  console.log(s);
